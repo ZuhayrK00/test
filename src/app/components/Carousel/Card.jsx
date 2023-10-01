@@ -5,7 +5,7 @@ function Card({ text, img }) {
     <div className="w-96 mx-auto">
       <div className="card glass bg-purple-400">
         <figure>
-          <img src={img} alt="car!" />
+          <img src={img} />
         </figure>
         <div className="card-body">
           <h2 className="card-title">{text}</h2>
