@@ -8,7 +8,6 @@ import { SiLightning } from "react-icons/si";
 const Navbar = () => {
   return (
     <nav>
-      {/* Navbar container with background gradient */}
       <div
         className="navbar flex justify-between items-center"
         style={{ background: "linear-gradient(135deg, #6b30f5, #a451ff)" }}
@@ -48,7 +47,6 @@ const Navbar = () => {
 
         {/* Right side of the Navbar */}
         <div className="flex">
-
           {/* Label: XP Level */}
           <div className=" flex items-center px-4 py-2 bg-white text-black rounded-xl text-xs mr-4">
             <SiLightning className="icon text-2xl" />
@@ -57,12 +55,10 @@ const Navbar = () => {
 
           {/* Avater */}
           <div className="hidden sm:block">
-            <div className="dropdown dropdown-end">
-              <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-                <div className="w-10 rounded-full">
-                  <img className="bg-black" />
-                </div>
-              </label>
+            <div className="avatar online">
+              <div className="w-10 h-10 rounded-full">
+                <img src="https://images.unsplash.com/photo-1506014739647-c231072489c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3264&q=80" />
+              </div>
             </div>
           </div>
         </div>
